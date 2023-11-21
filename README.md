@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Document</title>
 </head>
-
 <body>
     <div class="container">
         <div class="profile-area">
