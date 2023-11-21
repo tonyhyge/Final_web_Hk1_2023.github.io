@@ -164,16 +164,6 @@
                                 <input id="pac-input"type="text" placeholder="Location" class="event-location">
                                 <button class="add-event-btn-map " ><i class="fa-sharp fa-solid fa-location-dot"></i></button>
                                 <div id="googleMap" class="map  ">
-                                    <!-- <script>
-                                        function myMap() {
-                                        var mapProp= {
-                                        center:new google.maps.LatLng(51.508742,-0.120850),
-                                        zoom:5,
-                                        };
-                                        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                                        }
-                                    </script> -->
-                                    <!-- <script src="https://maps.googleapis.com/maps/api/js?key&callback=myMap"></script> -->
                                     <script
                                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC69dkDskDMsxSvZiCqAd9thxLDBohuBJI&callback=initAutocomplete&libraries=places&v=weekly"
                                     defer
@@ -201,16 +191,12 @@
                     <div class="events">
                     </div>
                     <button class="add-event">
-                        <!-- <i class="fas fa-plus"></i> -->
                         NEW TASK
                     </button>
                 </div>
             </div>      
         </div>
     </div>
-<!--     </div>
-    </div>
-    </div> -->
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" ></script>
     <script>
